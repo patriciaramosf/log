@@ -7,6 +7,7 @@
 - Cor da Data: #6E7D83;
 - Cor do Excerto de Texto: #3E3E3E;
 - Cor do Read More: #3E3E3E;
+
 - Altura da Imagem: 300px;
 - Largura Imagem: 460px;
 - Margem entre Título e Imagem: 15px;

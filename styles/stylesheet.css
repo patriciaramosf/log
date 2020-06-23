@@ -1,9 +1,87 @@
 :root {
     --main-font-family:'Montserrat', sans-serif;
     --main-bg-color: white;
+    --title-font-size:24px;
+    --description-font-size:14px;
+    --date-font-size:16px;
+    --link-font-size:14px;
+    --title-font-color:#555D60;
+    --description-font-color:#3E3E3E;
+    --date-font-color:#6E7D83;
+    --link-font-color:#3E3E3E;
   }
   
   body{
     background-color: var(--main-bg-color);
     font-family: var(--main-font-family);
+    background-color:lightgoldenrodyellow;
+  }
+  .wrapper{
+      margin:0 auto;
+      display:grid;
+      grid-template-columns: 1fr;
+      grid-gap:10px;
+      justify-items: center;
+      align-items: center;
+  }
+  .wrapper .card{
+      width:460px;
+      background-color: white;
+      border:1px solid black;
+      padding:15px;
+  }
+  .wrapper .card .image{
+      height:300px;
+      width:460px;
+      background-image:url(../images/landscape.jpg);
+      background-position: center;
+      background-size: cover;
+      margin-bottom:15px;
+  }
+  .wrapper .card .main .title{
+      font-size: var(--title-font-size);
+      color: var(--title-font-color);
+      width:384px;
+      height:56px;
+      margin-bottom:40px;
+  }
+  .wrapper .card .main .date{
+    font-size: var(--date-font-size);
+    color: var(--date-font-color);
+    line-height: 30px;
+}
+.wrapper .card .main .description{
+    font-size: var(--description-font-size);
+    color: var(--description-font-color);
+    width:398px;
+    height:88px;
+    overflow: scroll;
+}
+.wrapper .card .footer{
+    border-top: solid 1px var(--date-font-color);
+    border-bottom: solid 1px var(--date-font-color);
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.wrapper .card .footer .moreInfo{
+    font-size: var(--link-font-size);
+    color: var(--link-font-color);
+    line-height:60px;
+    margin-right:10px;
+    cursor: pointer;
+}
+.wrapper .card .footer .moreInfo:hover{
+    font-weight: bold;
+}
+.wrapper .card .footer .fas{
+    color:darkmagenta;
+}
+
+@media only screen and (min-width: 768px) {
+    .wrapper {
+        grid-template-columns: 1fr 1fr;
+        grid-gap:20px;
+    }
   }
