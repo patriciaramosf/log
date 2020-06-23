@@ -1,8 +1,5 @@
-Exercício com CSS Flexbox & Grid
-Para la estructura principal de la página, use CSS Grid. Es cierto que la idea principal eran 3 columnas, pero por el tamaño dado de las imagenes, y por tanto de las cartoes, se podrucía un scroll horizontal. 
+Exercicio com CSS Flexbox & Grid
 
-La solución para que fuese responsive fue reducir 20 px el tamaño de cartao e imagen en dispositivos menores de 768px (móbiles, tablets pequeñas...), y hacer una estructura de una sola columna. Para el resto de dispositivos el tamaño de la imagen es el acordado (460px), y la estructura presenta 2 columnas.
-
-Relacionado también con el tamaño del cartao, he hecho 6 cartoes con descripciones y textos de diferentes tamaños, para que se pueda ver que se cumplen las medidas establecidas. Esto en el caso de las descripciones, lo he conseguido con un overflow:scroll.
-
-Añadi también variables en CSS para que trabajar con los diferentes colores, tamaños... fuera más sencillo.
+Para a estrutura principal da página usei CSS Grid. 
+É verdade, que no enunciado do exercício eram pedidas 3 colunas. No entanto, devido ao tamanho das imagens, aparecia um scroll horizontal. A solução para contornar este problema e tornar a página responsive foi reduzir o das imagens em 20px nos aparelhos menores que 768px (telemóveis, tablets pequenos) e criar uma estrutura de coluna única, nos aparelhos maiores que 768px a estrutura é de duas colunas.
+A estrutura de cada cartão está definida com flexbox, e fiz 6 cartões com descrições e textos de tamanhos diferentes para que se possa entender que as medidas establecidas foram cumpridas. No caso das descrições isto foi conseguido com um overflow: scroll. Também adicionei variáveis em CSS para facilitar o trabalho com as diferentes cores e tamanhos.
