@@ -25,14 +25,14 @@
       align-items: center;
   }
   .wrapper .card{
-      width:460px;
+      width:440px;
       background-color: white;
       border:1px solid black;
       padding:15px;
   }
   .wrapper .card .image{
       height:300px;
-      width:460px;
+      width:440px;
       background-image:url(../images/landscape.jpg);
       background-position: center;
       background-size: cover;
@@ -79,9 +79,17 @@
     color:darkmagenta;
 }
 
+/* responsive */
+
 @media only screen and (min-width: 768px) {
     .wrapper {
         grid-template-columns: 1fr 1fr;
         grid-gap:20px;
+    }
+    .wrapper .card{
+        width:460px;
+    }
+    .wrapper .card .image{
+        width:460px;
     }
   }
