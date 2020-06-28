@@ -2,7 +2,6 @@
 
 CSS | Flexbox | Grid | Media queries
 
-A estrutura principal da página foi criada com CSS Grid 
 
 A estrutura principal da página foi criada com CSS Grid, e devido ao tamanho das imagens não foi possivel uma estrutura de tres colunas. A solução para contornar este problema e tornar a página responsive foi reduzir o das imagens em 20px nos aparelhos menores que 768px (telemóveis, tablets pequenos) e criar uma estrutura de coluna única, nos aparelhos maiores que 768px a estrutura é de duas colunas.
 
